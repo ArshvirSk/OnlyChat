@@ -5,7 +5,7 @@ import { loadFull } from "tsparticles";
 import "./App.css";
 import Chat from "./Chat";
 
-const socket = io.connect("https://nimble-snickerdoodle-733eca.netlify.app/");
+const socket = io.connect("https://chat-app-server-fwg2.onrender.com/");
 // const socket = io.connect("http://localhost:3001");
 
 function App() {
