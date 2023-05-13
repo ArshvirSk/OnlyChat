@@ -11,7 +11,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://nimble-snickerdoodle-733eca.netlify.app/",
+    origin: "*",
     // origin: "http://localhost:3000",
     // origin: "https://salty-retreat-48240.herokuapp.com",
     methods: ["GET", "POST"],
