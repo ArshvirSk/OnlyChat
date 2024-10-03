@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 }
 
 body {
@@ -112,7 +113,7 @@ form {
 }
 
 img {
-  width: 12%;
+  width: 190px;
   height: 23%;
   display: flex;
   z-index: 3;
@@ -267,8 +268,17 @@ img {
 }
 
 @media screen and (max-width: 1024px) {
-  img {
-    width: 25%;
-    height: 24%;
-  };
+
+  .chat-window,
+  .LeaveBut {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 726px) {
+
+  .chat-window,
+  .LeaveBut {
+    width: 95vw;
+  }
 }
